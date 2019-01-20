@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+	<title>Medestetic</title>
+	<meta name="description" content="En MedEstetic contamos con los tratamientos mas 
+							innovadores para cuidar de tu salud, belleza y bienestar sin necesidad de cirugía.">
+							<meta name="keywords" content="Peelings,
+							Microdermoabrasión,
+							Lipólisis Quimica,
+							Rellenos Faciales,
+							Esculpido Labial,
+							Hilos Tensores, ( Rusos),
+							Plasma Rico en Plaquetas,
+							Rinomodelación,
+							Mesoglow,
+							Toxina Butolínica,
+							Hipertrofia de maseteros, (falta que Lisette lo pase),
+							Eliminación de manchas, pecas y paño,
+							Tratamiento de parpados y ojeras,
+							Resurfacing,
+							Fotorrejuvenecimineto,
+							Tratamiento de Acne,
+							Radiofrecuencia,
+							Depilación Definitiva,
+							Cavitación Ultrasónica,
+							Radiofrecuencia,
+							Estrías,
+							Celulitis,
+							Mesoterapia,
+							Drenaje Linfático,
+							Vibroterapia,
+							Exfoliaciones Corporales,
+							Lipólisis Quimica,
+							Luz Pulsada,
+							Radiofrecuencia,
+							Tratamiento Integral para el Control de Peso,
+							Eliminación de Verrugas,
+							Onocomicosis,
+							Sudoración excesiva de axilas, manos y pies ( falta contenido de Lisette),
+							Tratamiento Capilar,
+							Eliminación de Tatuajes, ( este estaba en cuerpo, pasarlo aqui),
+							tratamiento de arañas vasculares,
+							Láser ND: Yag,
+							Luz Pulsada Intensa,
+							Cavitación Ultrasónica,
+							Radiofrecuencia,
+							Ultrasonido,
+							medestetic,
+							lisett, hinojos, doctora
+							">
+	<meta charset="UTF-8">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="bower_components/jquery/dist/jquery.js"></script>
+	<!-- AngularJS -->
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+<!-- Firebase -->
+<script src="https://cdn.firebase.com/js/client/2.2.4/firebase.js"></script>
+<!-- AngularFire -->
+<script src="https://cdn.firebase.com/libs/angularfire/1.1.2/angularfire.min.js"></script>
+
+	<script src="app.js"></script>
+</head>
+<body ng-controller="view">
+
+	<header id="header">
+
+		<div class="logo"><a href="../"><img src="images/logo.png"></a></div>
+		<a class="menu" href="#">MENU</a>
+		
+	</header>
+
+	<div id="men" class="full">
+		<div class="hero">
+			<a href="../">Inicio</a>
+			<a href="../nosotros.html">Nosotros</a>
+			<a href="../#servicios">Servicios</a>
+			<a href="../aparatologia.html">Aparatología</a>
+			<a href="../contacto.html">Contacto</a>
+		</div>
+		<div class="social">
+						<a href="#"><img src="images/face.png"></a>
+						<a href="#"><img src="images/insta.png"></a>
+					</div>
+	</div>
+
+	
+	<div class="d8">
+	<div>
+	</div>
+		<div class="hero3">
+			<div class="row">
+				<div class="container">
+					<div class="col-sm-8 col-sm-offset-2">
+						<h2>CONTACTO</h2>
+						<div class="line"></div>
+						<h3> 16 de Septiembre #406 Local C
+							Colonia Centro. C.P 31700
+							Nuevo Casas Grandes, Chihuahua.
+							</h3>
+							<h3> 
+								<img src="images/tel.png">: &nbsp;636 694 54 54</br>
+								<img src="images/mail.png">: &nbsp;<a href="mailto:contacto@medestetic.com.mx">contacto@medestetic.com.mx</a>
+							</h3>	</br></br></br>
+
+									<h2 class="dos">Gracias por contactarnos,</BR> en breve nos comunicaremos contigo</h2>
+
+
+							<div class="uno col-sm-6 nop">
+								<div class="form-group">
+									<label for="usr">Nombre Completo:</label>
+									<input type="text" ng-model="nombre" class="form-control" >
+								</div>
+							</div>
+
+							<div class="uno col-sm-6 nop">
+								<div class="form-group">
+									<label for="usr">Correo:</label>
+									<input type="text" ng-model="contacto" class="form-control" >
+								</div>
+							</div>
+
+							<div class="uno col-sm-12 nop">
+								<div class="form-group">
+									<label for="comment">Mensaje:</label>
+									<textarea class="form-control" ng-model="mensaje" rows="5" id="comment"></textarea>
+								</div>
+
+								<button type="submit" ng-click="save(nombre,contacto,mensaje)" class="uno btn btn-default but">Enviar</button>
+
+							</div>
+
+
+						</div>	
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+
+			<div class="d6">
+				Contáctanos al <b>teléfono. 636 694 54 54</b> y escríbenos a <b><a href="mailto:contacto@medestetic.com.mx">contacto@medestetic.com.mx</a></b>
+
+				<div class="mimi">
+				<a href="https://www.facebook.com/medesteticdralisettehinojos"><img src="images/face.png"></a>
+						<a href="http://instagram.com/clinica_medestetic"><img src="images/insta.png"></a>
+						</div>
+			</div>
+
+
+
+		<script type="text/javascript">
+			$(".menu").click(function(event){
+				event.preventDefault();
+				$("#men").fadeToggle();
+			});
+
+			$("#men a").click(function(event){
+
+				$("#men").fadeToggle();
+			});
+
+			$(function() {
+				$('a[href*=#]:not([href=#])').click(function() {
+					if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+						var target = $(this.hash);
+						target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+						if (target.length) {
+							$('html,body').animate({
+								scrollTop: target.offset().top
+							}, 1000);
+							return false;
+						}
+					}
+				});
+			});
+		</script>
+
+	</body>
+	</html>
